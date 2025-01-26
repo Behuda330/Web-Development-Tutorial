@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+#apps{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section header ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+section header ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#srchi{
+    height: 20px;
+    width: 20px;
+}
+#voice{
+    height: 20px;
+    width: 20px;
+}
+#glogo{
+    height: 200px;
+    width: 200px;
+   
+}
+section .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+section .main .buttons{
+    text-align: center;
+    margin: 0 5px;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px solid;
+}
+section .main .lang{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section .main #srchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main #srchbox .srch{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    margin-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+section .main #srchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons button:hover{
+    border-radius: 1px solid #ccc;
+}
+.footer{
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background: #f2f2f2;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white,0.5;
+}
+.footer .row ul{
+    display: flex;
+}
+.footer .row ul li{
+    list-style-type: none;
+}
+.footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}

@@ -1,0 +1,83 @@
+p{
+    color: aqua;
+}
+body{
+    background-image: url(/Sources/ruwQMHRaKqdQUR4STZKjqF.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#dv1{
+    color: tomato;
+    border: 100px;
+    border-color: black;
+    padding: 10px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: 7px;
+    outline-color: black;
+    border: 10px;
+}
+a:active{
+    color: brown;
+}
+a:visited{
+
+}
+.con{
+    color: brown;
+}
+ul{
+    color: aquamarine;
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    
+}
+#ul2{
+    list-style: inside square ;
+}
+table,th,td{
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    border: 5px solid green;
+    width: 500px;
+}
+th,td{
+    color: aqua;
+    border: 2px white solid;
+    padding: 10px;
+}
+span{
+    text-align: center;
+    display: block;
+}
+#p5{
+    text-align: center;
+    display: inline-block;
+}
+.ul2{
+    display: inline-block;
+}
+#p6{
+    border: 3px solid black;
+    width: 400px;
+    margin: auto;
+}
+#p7{
+    border: 3px solid black;
+    max-width: 400px;
+    margin: auto;
+
+}
+#div2{
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    overflow: auto;
+}

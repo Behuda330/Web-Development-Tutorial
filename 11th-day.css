@@ -44,6 +44,7 @@ header{
 }
 .navbar ul li:hover{
     background-color: crimson;
+    border-radius: 20%;
 }
 .navbar ul ul{
     display: none;

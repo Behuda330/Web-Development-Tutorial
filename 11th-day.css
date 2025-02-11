@@ -46,7 +46,7 @@ header{
     background-color: crimson;
     border-radius: 20%;
 }
-.navbar ul ul{
+.navbar ul li ul{
     display: none;
 }
 .navbar ul li:hover ul{

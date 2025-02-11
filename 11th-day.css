@@ -85,8 +85,8 @@ footer{
     font-weight: bolder;
 }
 #text p{
-    width: 200px;
-    text-align: center;
+    width: 100%;
+    /*text-align: center;*/
     margin: 0px auto;
 
 }
